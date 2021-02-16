@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*Logo*/
+.logo path#Fill-14 {
+  fill: #e50914;
+}
+
+.logo svg {
+  height: 50px;
+  width: 167px;
+}
+
+/*Background image*/
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../img/image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  padding: 20px 50px;
+}
+
+/*Log-in Section*/
+.log-in-box-out {
+  max-width: 450px;
+  padding: 60px;
+  margin-left: 50%;
+  margin-top: 55px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  transform: translateX(-50%);
+}
+.log-in-box-out h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.log-in-box-out input {
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  background: #333;
+  color: #fff;
+  padding-left: 15px;
+  border: 1px solid #333;
+}
+.log-in-box-out input ::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.log-in-box-out .log-in-wrap {
+  margin-bottom: 20px;
+}
+.log-in-box-out .log-in-wrap button {
+  background-color: #e50914;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #e50914;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 25px;
+}
+
+.remember-help {
+  display: flex;
+  justify-content: space-between;
+  color: #e2dddd;
+  font-size: 12px;
+}
+.remember-help input {
+  height: 15px;
+  width: 15px;
+}
+.remember-help .remember {
+  display: flex;
+  align-items: center;
+}
